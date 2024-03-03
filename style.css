@@ -1,0 +1,137 @@
+
+section{
+    padding: 2rem 9%;
+}
+.heading{
+    text-align: center;
+    padding: 3.5rem 0;
+}
+.heading span{
+    font-size: 2.5rem;
+    background: rgba(146, 184, 203, 0.2);
+    color:#17a2b8;
+    border-radius: 0.5rem;
+    padding: 2rem 1rem;
+}
+.heading span.space{
+    background: none;
+}
+
+/* navbar start */
+.navbar{
+    position: sticky !important;
+}
+.navbar .navbar-brand{
+    color:#17a2b8;
+}
+
+/* registration form */
+.modal{
+    background: rgba(146, 184, 203, 0.2);
+}
+
+/* home here */
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+    color: black;
+}
+.home p{
+    font-weight: bold;
+}
+.home a{
+    background-color: #17a2b8 !important;
+    color: white;
+}
+.home a:hover{
+    outline: info;
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
+        }
+    .heading span{
+        font-family: 2.5rem;
+    }
+}
+/* book now section */
+.card image{
+    border: none;
+}
+/* Service section */
+.services {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-item i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.service-item h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #6c757d;
+}
+.service .card{
+    background: rgba(146, 184, 203, 0.2);
+}
+
+/* footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    color: #fff;
+}
+
+.footer p {
+    color: #ccc;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    color: #ccc;
+}
+/* main section */
+#main-part{
+    position: relative;
+}
+#main-part .carousel-caption{
+    position: absolute;
+    top: 200px;
+    color: black;
+}
